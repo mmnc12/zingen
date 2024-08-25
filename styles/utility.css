@@ -59,7 +59,7 @@
   }
 
   .even-columns {
-    grid-auto-flow: grid;
+    grid-auto-flow: column;
     grid-auto-columns: 1rf;
   }
 }
