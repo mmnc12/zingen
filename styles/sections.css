@@ -7,8 +7,8 @@ section {
   & header {
     & strong {
       display: block;
-      font: var(--fw-md) var(--fs-sm/100%) var(--ff-sans);
-      letter-spacing: .08em;
+      font: var(--fw-md) var(--fs-sm) / 100% var(--ff-sans);
+      letter-spacing: .08rem;
       text-transform: uppercase;
 
       color: var(--brand-color-primary);
@@ -26,7 +26,7 @@ section {
   }
 }
 
-@media (width >=80em) {
+@media (width >= 80em) {
   #smartphones-img {
     display: none;
   }
